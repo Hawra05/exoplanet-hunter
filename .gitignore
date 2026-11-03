@@ -6,3 +6,8 @@ venv/
 .vscode/
 .DS_Store
 Thumbs.db
+*.log
+.vscode/
+.streamlit/secrets.toml
+env/
+pytest_cache/
