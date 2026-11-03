@@ -36,11 +36,11 @@ To run this project locally, you will need Python installed on your system. Foll
 git clone https://github.com/Hawra05/exoplanet-hunter.git
 cd exoplanet-hunter
 ```
-**2.Install dependecies
+2.Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-**3. Run the application
+3. Run the application
 ```bash
 streamlit run app.py
 ```
