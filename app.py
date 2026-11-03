@@ -788,8 +788,6 @@ else:
 
 st.markdown('<hr class="rule">', unsafe_allow_html=True)
 st.markdown(
-    '<p class="data-reference"Data Reference: NASA Kepler Exoplanet Search Results, obtained through Kaggle. Original data: "NASA Exoplanet Archive" (https://exoplanetarchive.ipac.caltech.edu/).
-
-This project is an educational machine learning demonstration; its predictions are not scientific confirmation of exoplanets.</p>'
+    '<p class="data-reference">Data Source: NASA Kepler Exoplanet Search Results, obtained through Kaggle. Original data: <a href="https://exoplanetarchive.ipac.caltech.edu/">NASA Exoplanet Archive</a>.</p>'
     unsafe_allow_html=True,
 )
