@@ -787,5 +787,5 @@ else:
     st.caption("Candidates are ranked by the model's estimated probability of the confirmed class. A high score does not mean the object has been confirmed.")
 
 st.markdown('<hr class="rule">', unsafe_allow_html=True)
-st.markdown('<p class="data-reference">Data Source: NASA Kepler Exoplanet Search Results, obtained through Kaggle. Original data: <a href="https://exoplanetarchive.ipac.caltech.edu/">NASA Exoplanet Archive</a>.</p>', unsafe_allow_html=True)
-st.markdown('<p>This project is an educational machine learning demonstration; its predictions are not scientific confirmation of exoplanets.</p>', unsafe_allow_html=True)
+st.markdown('<p class="data-reference">Data Source: NASA Kepler Exoplanet Search Results, obtained through Kaggle. Original data: <a href="https://exoplanetarchive.ipac.caltech.edu/">NASA Exoplanet Archive</a>.<br><br>This project is an educational Machine Learning demonstration ;it's predictions are not scientific confirmation of exoplanets.</p>', unsafe_allow_html=True)
+
