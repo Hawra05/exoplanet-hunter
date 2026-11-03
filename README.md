@@ -1,33 +1,38 @@
 # 🪐 Exoplanet Hunter
 
-> An educational machine learning demonstration that uses Kepler Objects of Interest data to distinguish between confirmed exoplanets and false positives.
-
 ## 📖 Overview
 
-Can a measured dip in a star's brightness be distinguished from a false alarm? This project uses Kepler Objects of Interest (KOI) data from NASA to build a logistic regression model from scratch with NumPy. The goal is to explore the binary classification problem of identifying genuine exoplanet signals from instrumental noise, eclipsing binaries, and other astrophysical false positives.
+When a planet passes in front of its host star, it casts a tiny shadow. Detecting this minuscule dip in stellar brightness against a background of cosmic noise and instrumental artifacts is a classic needle-in-a-haystack problem in modern astrophysics. 
 
-**🔗 Live Demo:** [https://exoplanet-hunter-a.streamlit.app](https://exoplanet-hunter-a.streamlit.app)
+**Exoplanet Hunter** is a machine learning exploration built to tackle this exact classification challenge. Using NASA's Kepler Objects of Interest (KOI) data, this project implements a logistic regression model from scratch using only NumPy. It serves as an educational demonstration of how foundational statistical learning can be applied to separate genuine planetary transits from astrophysical false positives.
+
+**🔗 Live Interactive Demo:** [Exoplanet Hunter on Streamlit](https://exoplanet-hunter-a.streamlit.app)
+
+---
 
 ## 📊 Dataset
 
-The data for this project was obtained from the **NASA Kepler Exoplanet Search Results** dataset via Kaggle. The original source is the **NASA Exoplanet Archive**.
+The data used in this project originates from the **NASA Exoplanet Archive** and was accessed via Kaggle.
+*   **Source:** [Kaggle - NASA Kepler Exoplanet Search Results](https://www.kaggle.com/datasets/nasa/kepler-exoplanet-search-results)
+*   **Features:** The model utilizes photometric and stellar parameters recorded by the Kepler space telescope.
+*   **Target:** The model classifies objects into binary categories based on their disposition (e.g., Confirmed vs. False Positive).
 
-*   **Source:** [Kaggle - NASA Kepler Exoplanet Search Results](https://www.kaggle.com/datasets/nasa/kepler-exoplanet-search-results) | [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/)
-*   **Target Variable:** The model aims to predict a star's disposition (e.g., `CONFIRMED` vs. `FALSE POSITIVE`).
-*   **Features:** The model utilizes photometric and stellar features recorded by NASA before vetting.
+---
 
 ## 🛠️ Methodology
 
-1.  **Data Preprocessing:** The dataset was cleaned to handle missing values and select the most relevant features for the classification task.
-2.  **Model:** A **logistic regression model** was implemented from scratch using **NumPy**. This was a deliberate choice to demonstrate an understanding of the underlying mathematics, rather than relying on a high-level library.
-3.  **Training:** The model was trained on a labeled subset of the data to learn the patterns that distinguish confirmed exoplanets from false positives.
-4.  **Evaluation:** The model's performance was evaluated using metrics such as [Accuracy, Precision, Recall, F1-score].
+1.  **Data Preprocessing:** Handling missing values and selecting the most predictive numerical features from the Kepler dataset.
+2.  **Custom Implementation:** Instead of relying on high-level libraries like Scikit-Learn, the logistic regression algorithm (including gradient descent and the sigmoid function) is written entirely from scratch using **NumPy**. This was done to demonstrate a deep understanding of the underlying mathematics.
+3.  **Evaluation:** The model's performance is evaluated using standard classification metrics (Accuracy, Precision, Recall) to ensure it correctly identifies planets without triggering too many false alarms.
 
-## 🚀 How to Run
+---
 
-To run this project locally, follow these steps:
+## ⚙️ Requirements & Installation
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/exoplanet-hunter.git](https://github.com/your-username/exoplanet-hunter.git)
-    cd exoplanet-hunter 
+To run this project locally, you will need Python installed on your system. Follow the steps below in your terminal:
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/your-username/exoplanet-hunter.git
+cd exoplanet-hunter```
+ok
