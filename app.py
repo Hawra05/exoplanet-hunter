@@ -541,7 +541,7 @@ inject_styles()
 
 st.title("Exoplanet Hunter")
 st.markdown(
-    """<p class="hero-subtitle" style="font-size: 1.25rem; line-height: 1.7; font-weight: 400; color: #222222; margin-top: 1.5rem; margin-bottom: 2.5rem;">
+    """<p class="hero-subtitle" style="font-size: 1.25rem; line-height: 1.7; font-weight: 400; color: #222222; margin-top: 1.5rem; margin-bottom: 0.5rem;">
     Can a measured dip in a star's brightness be distinguished from a false alarm? This project uses Kepler Objects of Interest data and a logistic regression model implemented from scratch with NumPy to explore that question.
     </p>""",
     unsafe_allow_html=True
