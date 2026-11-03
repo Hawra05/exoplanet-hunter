@@ -6,7 +6,7 @@ When a planet passes in front of its host star, it casts a tiny shadow. Detectin
 
 **Exoplanet Hunter** is a machine learning exploration built to tackle this exact classification challenge. Using NASA's Kepler Objects of Interest (KOI) data, this project implements a logistic regression model from scratch using only NumPy. It serves as an educational demonstration of how foundational statistical learning can be applied to separate genuine planetary transits from astrophysical false positives.
 
-**🔗 Live Interactive Demo:** [Exoplanet Hunter on Streamlit](https://exoplanet-hunter-a.streamlit.app)
+**🔗 Live Interactive Demo:**(https://exoplanet-hunter-a.streamlit.app)
 
 ---
 
