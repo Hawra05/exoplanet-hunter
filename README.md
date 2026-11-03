@@ -33,7 +33,7 @@ To run this project locally, you will need Python installed on your system. Foll
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/your-username/exoplanet-hunter.git
+git clone https://github.com/Hawra05/exoplanet-hunter.git
 cd exoplanet-hunter
 ```
 **2.Install dependecies
