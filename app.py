@@ -541,10 +541,11 @@ inject_styles()
 
 st.title("Exoplanet Hunter")
 st.markdown(
-    '<p class="hero-subtitle">Can a measured dip in a star’s brightness be distinguished from a false alarm? '
-    'This project uses Kepler Objects of Interest data and a logistic regression model implemented from scratch '
-    'with NumPy to explore that question.</p>',
-    unsafe_allow_html=True,
+    """<p class="hero-subtitle" style="font-size: 1.35rem; line-height: 1.6; font-weight: 300; color: #4A4A4A; margin-top: 1rem; margin-bottom: 2rem;">
+    Can a measured dip in a star's brightness be distinguished from a false alarm? 
+    This project uses Kepler Objects of Interest data and a logistic regression model implemented from scratch with NumPy to explore that question.
+    </p>""",
+    unsafe_allow_html=True
 )
 st.markdown(
     """
