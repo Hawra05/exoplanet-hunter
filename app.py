@@ -1,3 +1,4 @@
+
 """Exoplanet Hunter: an educational Kepler-signal classification application."""
 
 from __future__ import annotations
@@ -787,9 +788,8 @@ else:
 
 st.markdown('<hr class="rule">', unsafe_allow_html=True)
 st.markdown(
-    '<p class="data-reference">Data reference: NASA Exoplanet Archive — Kepler Objects of Interest (KOI) table. '
-    'The source file in this project was obtained from Kaggle; verify its specific dataset listing and version '
-    'before attributing the download directly to NASA. This project is an educational machine-learning demonstration '
-    'and is not intended for scientific validation or confirmation of exoplanets.</p>',
+    '<p class="data-reference"Data Reference: NASA Kepler Exoplanet Search Results, obtained through Kaggle. Original data: "NASA Exoplanet Archive" (https://exoplanetarchive.ipac.caltech.edu/).
+
+This project is an educational machine learning demonstration; its predictions are not scientific confirmation of exoplanets.</p>'
     unsafe_allow_html=True,
 )
